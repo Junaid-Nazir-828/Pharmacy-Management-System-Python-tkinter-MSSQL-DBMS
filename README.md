@@ -1,10 +1,10 @@
-# Pharmacy-Management-System-Python-tkinter-mySQL-DBMS
+# Pharmacy-Management-System-Python-tkinter-MSSQL-DBMS
 This project uses tkinter (a library of python) for the GUI and MySQL for storing data.
 
 -------Tools---------
 Following tools are required to run this code:
 1) Python Interpretor such as pycharm
-2) MySQL such as Microsoft SQL Server Management Studio
+2) Microsoft SQL Server Management Studio
 
 -------Libraries---------
 Make sure following libraries are installed on python Interpretor:
@@ -14,7 +14,7 @@ Make sure following libraries are installed on python Interpretor:
 -------Database Setup---------
 Before Running the code :
 
-- create a database named as 'Pharmacy Management System' in MySQL:
+- create a database named as 'Pharmacy Management System' in MS SQL:
 
 - create table inside this database using the following code:
 
@@ -32,5 +32,5 @@ price varchar(60),
 )
 
 -------Server Name---------
-Make sure you assign sever name from MySQL (which is usually name of your pc/laptop)
+Make sure you assign sever name from MS SQL (which is usually name of your pc/laptop)
 to a string self.server_name (line:252) inside function named 'connect_database'
